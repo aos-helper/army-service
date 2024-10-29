@@ -33,21 +33,21 @@ public class GnawfestClawpackArmyBuilder implements ArmyBuilder {
                                                 new Hit(3),
                                                 new Wound(3),
                                                 new Rend(1),
-                                                new Damage("1")),
+                                                new Damage(1)),
                                         new Weapon(
                                                 "Warpforged Halberd",
                                                 WeaponType.MELEE,
                                                 new Range(1),
-                                                new Attack("5"),
+                                                new Attack(5),
                                                 new Hit(3),
                                                 new Wound(4),
                                                 new Rend(1),
-                                                new Damage("2")),
+                                                new Damage(2)),
                                         new Weapon(
                                                 "Gnaw-beast’s Chisel Fangs",
                                                 WeaponType.MELEE,
                                                 new Range(1),
-                                                new Attack("4"),
+                                                new Attack(4),
                                                 new Hit(4),
                                                 new Wound(3),
                                                 new Rend(1),
@@ -60,7 +60,7 @@ public class GnawfestClawpackArmyBuilder implements ArmyBuilder {
                                                 "Warpstone Staff",
                                                 WeaponType.MELEE,
                                                 new Range(1),
-                                                new Attack("3"),
+                                                new Attack(3),
                                                 new Hit(4),
                                                 new Wound(4),
                                                 new Rend(1),
@@ -73,7 +73,7 @@ public class GnawfestClawpackArmyBuilder implements ArmyBuilder {
                                                 "Warplock Musket",
                                                 WeaponType.RANGED,
                                                 new Range(24),
-                                                new Attack("2"),
+                                                new Attack(2),
                                                 new Hit(3),
                                                 new Wound(3),
                                                 new Rend(2),
@@ -86,11 +86,11 @@ public class GnawfestClawpackArmyBuilder implements ArmyBuilder {
                                                 "Rusty Blade",
                                                 WeaponType.MELEE,
                                                 new Range(1),
-                                                new Attack("2"),
+                                                new Attack(2),
                                                 new Hit(4),
                                                 new Wound(5),
                                                 new Rend(0),
-                                                new Damage("1"))
+                                                new Damage(1))
                                 )),
                         new Unit("Clanrats II", 10,
                                 new UnitStats(1, 5),
@@ -99,11 +99,11 @@ public class GnawfestClawpackArmyBuilder implements ArmyBuilder {
                                                 "Rusty Blade",
                                                 WeaponType.MELEE,
                                                 new Range(1),
-                                                new Attack("2"),
+                                                new Attack(2),
                                                 new Hit(4),
                                                 new Wound(5),
                                                 new Rend(0),
-                                                new Damage("1"))
+                                                new Damage(1))
                                 )),
                         new Unit("Rat Ogors", 3,
                                 new UnitStats(4, 5),
@@ -116,16 +116,16 @@ public class GnawfestClawpackArmyBuilder implements ArmyBuilder {
                                                 new Hit(2),
                                                 new Wound(4),
                                                 new Rend(2),
-                                                new Damage("1")),
+                                                new Damage(1)),
                                         new Weapon(
                                                 "Claws, Blades and Fangs",
                                                 WeaponType.MELEE,
                                                 new Range(1),
-                                                new Attack("5"),
+                                                new Attack(5),
                                                 new Hit(4),
                                                 new Wound(3),
                                                 new Rend(1),
-                                                new Damage("2")
+                                                new Damage(2)
                                         ))
                         )));
     }
