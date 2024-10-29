@@ -1,7 +1,7 @@
 package aoshelper.armyservice.service;
 
-import aoshelper.armyservice.model.Army;
 import aoshelper.armyservice.repository.ArmyRepository;
+import aoshelper.common.armyservice.model.Army;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

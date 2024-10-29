@@ -1,6 +1,6 @@
 package aoshelper.armyservice.repository;
 
-import aoshelper.armyservice.model.Army;
+import aoshelper.common.armyservice.model.Army;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;

@@ -1,7 +1,7 @@
 package aoshelper.armyservice.controller;
 
-import aoshelper.armyservice.model.Army;
 import aoshelper.armyservice.service.ArmyService;
+import aoshelper.common.armyservice.model.Army;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

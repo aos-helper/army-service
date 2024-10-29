@@ -1,16 +1,16 @@
 package aoshelper.armyservice.service.armyloader.armies;
 
-import aoshelper.armyservice.model.Army;
-import aoshelper.armyservice.model.unit.Unit;
-import aoshelper.armyservice.model.unit.UnitStats;
-import aoshelper.armyservice.model.weapon.Attack;
-import aoshelper.armyservice.model.weapon.Damage;
-import aoshelper.armyservice.model.weapon.Hit;
-import aoshelper.armyservice.model.weapon.Range;
-import aoshelper.armyservice.model.weapon.Rend;
-import aoshelper.armyservice.model.weapon.Weapon;
-import aoshelper.armyservice.model.weapon.WeaponType;
-import aoshelper.armyservice.model.weapon.Wound;
+import aoshelper.common.armyservice.model.Army;
+import aoshelper.common.armyservice.model.unit.Unit;
+import aoshelper.common.armyservice.model.unit.UnitStats;
+import aoshelper.common.armyservice.model.weapon.Attack;
+import aoshelper.common.armyservice.model.weapon.Damage;
+import aoshelper.common.armyservice.model.weapon.Hit;
+import aoshelper.common.armyservice.model.weapon.Range;
+import aoshelper.common.armyservice.model.weapon.Rend;
+import aoshelper.common.armyservice.model.weapon.Weapon;
+import aoshelper.common.armyservice.model.weapon.WeaponType;
+import aoshelper.common.armyservice.model.weapon.Wound;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
