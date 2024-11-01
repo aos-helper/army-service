@@ -30,3 +30,4 @@ replay_pid*
 /army-service-integration-tests/target
 /army-service-integration-tests/target
 /army-service-integration-tests/target
+/army-service-client/target
