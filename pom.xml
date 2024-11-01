@@ -8,7 +8,7 @@
 		<version>3.3.4</version>
 	</parent>
 
-	<groupId>aoshelper</groupId>
+	<groupId>ml.aoshelper</groupId>
 	<artifactId>army-service-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -16,11 +16,13 @@
 	<description>Knows about armies and their units</description>
 
 	<properties>
-		<java.version>18</java.version>
+		<java.version>21</java.version>
 		<spring-cloud.version>2023.0.3</spring-cloud.version>
 	</properties>
 	<modules>
+        <module>army-service-api</module>
         <module>army-service</module>
+        <module>army-service-client</module>
         <module>army-service-integration-tests</module>
     </modules>
 </project>

@@ -1,5 +1,6 @@
 package aoshelper.armyservice.controller;
 
+import aoshelper.armyservice.ArmyServiceApi;
 import aoshelper.armyservice.service.ArmyService;
 import aoshelper.common.armyservice.model.Army;
 import lombok.RequiredArgsConstructor;
@@ -13,7 +14,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/army")
-public class ArmyController {
+public class ArmyController implements ArmyServiceApi {
 
     private final ArmyService armyService;
 
